@@ -59,16 +59,20 @@ After downloading these various data sources, I then performed the following ope
 
 I conduct two analyses, one taking the census block groups as the units for analysis and one taking the schools as the units for analysis.
 
+
+## Census Block Groups
+
 For the census block groups, I focus on median household income and the percentage of the population that identifies solely as White. I construct a spatial weights matrix using Queen's case first-order such that each census block group's neighbors are its immediately adjacent census block groups.
 
 - Local Moran's I
 - Local Moran's I with EB rates
 - Bivariate Local Moran's I
 
+## Schools
+
 To address my research questions focused on schools, I investigate the relationships between school performance scores, the percentage of the student body that identifies as White, the percentage of students who are economically disadvantaged, the percentage of students who are fully proficient in English, and the size of the school (as measured by the total number of non-pre-kindergarten students). I construct a spatial weights matrix using the distance band approach, where the threshold is set such that every point has at least one neighbor; I also apply inverse distance weighting.
 
-- OLS Regression
-- Spatial Regression
+I conduct two regressions, one with the percentage of economically disadvantaged students as the response variable, and the second with school performance scores as the response variable. Using GeoDa, I begin with ordinary least squares (OLS) regression and select the spatial weights matrix in order to view the spatial diagnostics. Based on the regression output, I then determine whether spatial regression is appropriate. If so, I apply either the spatial lag model or the spatial error model.
 
 # Exploratory Data Analysis
 
