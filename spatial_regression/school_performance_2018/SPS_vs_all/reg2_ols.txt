@@ -1,0 +1,54 @@
+>>12/20/2020 01:07:39 PM
+REGRESSION
+----------
+SUMMARY OF OUTPUT: ORDINARY LEAST SQUARES ESTIMATION
+Data set            :  EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh
+Dependent Variable  :    S2018new  Number of Observations:   69
+Mean dependent var  :     63.9565  Number of Variables   :    3
+S.D. dependent var  :     19.6155  Degrees of Freedom    :   66 
+
+R-squared           :    0.698505  F-statistic           :     76.4547
+Adjusted R-squared  :    0.689369  Prob(F-statistic)     : 6.54973e-18
+Sum squared residual:     8004.34  Log likelihood        :    -261.907
+Sigma-square        :     121.278  Akaike info criterion :     529.814
+S.E. of regression  :     11.0126  Schwarz criterion     :     536.516
+Sigma-square ML     :     116.005
+S.E of regression ML:     10.7706
+
+-----------------------------------------------------------------------------
+       Variable      Coefficient      Std.Error    t-Statistic   Probability
+-----------------------------------------------------------------------------
+          CONSTANT       151.251        12.4556        12.1432     0.00000
+        PERC_WHITE      -26.2493        12.6845        -2.0694     0.04243
+               ED_      -109.466        13.9076       -7.87095     0.00000
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS  
+MULTICOLLINEARITY CONDITION NUMBER   19.469904
+TEST ON NORMALITY OF ERRORS
+TEST                  DF           VALUE             PROB
+Jarque-Bera            2            20.1744          0.00004
+
+DIAGNOSTICS FOR HETEROSKEDASTICITY  
+RANDOM COEFFICIENTS
+TEST                  DF           VALUE             PROB
+Breusch-Pagan test     2             1.9728          0.37291
+Koenker-Bassett test   2             0.9527          0.62105
+SPECIFICATION ROBUST TEST
+TEST                  DF           VALUE             PROB
+White                  5             3.6896          0.59492
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE   
+FOR WEIGHT MATRIX : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh_SWM
+   (row-standardized weights)
+TEST                          MI/DF        VALUE          PROB
+Moran's I (error)            -0.0219        0.0696        0.94449
+Lagrange Multiplier (lag)       1           0.0485        0.82570
+Robust LM (lag)                 1           0.0001        0.99221
+Lagrange Multiplier (error)     1           0.0982        0.75405
+Robust LM (error)               1           0.0498        0.82348
+Lagrange Multiplier (SARMA)     2           0.0983        0.95206
+============================== END OF REPORT ================================
+
+
+

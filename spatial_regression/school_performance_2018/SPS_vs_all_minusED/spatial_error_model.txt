@@ -1,0 +1,37 @@
+>>12/20/2020 01:17:30 PM
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL ERROR MODEL - MAXIMUM LIKELIHOOD ESTIMATION 
+Data set            : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh
+Spatial Weight      : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh_SWM
+Dependent Variable  :    S2018new  Number of Observations:   69
+Mean dependent var  :   63.956522  Number of Variables   :    3
+S.D. dependent var  :   19.615459  Degrees of Freedom    :   66
+Lag coeff. (Lambda) :    0.391138
+
+R-squared           :    0.485807  R-squared (BUSE)      : - 
+Sq. Correlation     : -            Log likelihood        : -280.990227
+Sigma-square        :     197.844  Akaike info criterion :      567.98
+S.E of regression   :     14.0657  Schwarz criterion     :     574.683
+
+-----------------------------------------------------------------------------
+       Variable       Coefficient     Std.Error       z-value    Probability
+-----------------------------------------------------------------------------
+          CONSTANT       45.6869        4.23019        10.8002     0.00000
+        PERC_WHITE       59.9077        10.7865        5.55395     0.00000
+          TotNonPK     0.0145464     0.00553762        2.62683     0.00862
+            LAMBDA      0.391138       0.190398        2.05431     0.03995
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+DIAGNOSTICS FOR HETEROSKEDASTICITY 
+RANDOM COEFFICIENTS
+TEST                                     DF      VALUE        PROB
+Breusch-Pagan test                       2         2.1259     0.34543
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE 
+SPATIAL ERROR DEPENDENCE FOR WEIGHT MATRIX : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh_SWM
+TEST                                     DF      VALUE        PROB
+Likelihood Ratio Test                    1         2.2609     0.13267
+============================== END OF REPORT ================================
+

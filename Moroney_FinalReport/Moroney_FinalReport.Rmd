@@ -24,18 +24,47 @@ I propose to investigate the following research questions:
 
 # Introduction
 
-![Louisiana school district performance for the 2017-2018 academic year. East Baton Rouge Parish is outlined in blue and labeled.](../LA_sd_context.jpg){width=50% height=50%}
+![Louisiana school district performance for the 2017-2018 academic year. East Baton Rouge Parish is outlined in blue and labeled.](../LA_sd_context.jpg)
 
-![East Baton Rouge Parish school districts and the area of the City of St. George as proposed in 2018.](../EBR_Parish_context.jpg){width=50% height=50%}
+![East Baton Rouge Parish school districts and the area of the City of St. George as proposed in 2018.](../EBR_Parish_context.jpg)
 
 # Methods
 \label{sec:methods}
 
-- Local Moran's I
-- Local Moran's I with EB rates
-- Bivariate Local Moran's I
-- OLS Regression
-- Spatial Regression
+- Census Block Groups Analysis
+  - Spatial Weights Matrix: Queen's case first-order
+  - Local Moran's I
+  - Local Moran's I with EB rates
+  - Bivariate Local Moran's I
+  - Schools Analysis
+  - Spatial Weights Matrix: distance band (distance threshold = 14732 ft such that every point has a minimum of 1 neighbor); inverse distance weighting (power = 1); max neighbors = 19
+  - OLS Regression
+  - Spatial Regression
+
+# Exploratory Data Analysis
+
+## Median Household Income
+![Histogram of median household income.](../EDA/HistogramWStats_MDNHHIncome.png)
+
+## Population Percentage White
+
+![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite.png)
+
+### Most White
+![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite_SelectMostWhite.png)
+
+![Map of census block groups with the most population percentage white.](../EDA/Map_PercWhite_SelectMostWhite.png)
+
+### Least White
+![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite_SelectLeastWhite.png)
+
+![Map of census block groups with the least population percentage white.](../EDA/Map_PercWhite_SelectLeastWhite.png)
+
+## Bivariate Relationships
+![Cartogram of census block groups colored by the population percentage white with size annotating median household income.](../EDA/Cartogram_MedHHI_PercWhite.png)
+
+## School Performance Scores
+![Scatter plot matrix of 2017-2018 school performance scores, percentage of student body that is white, percentage of students who are economically disadvantaged, percentage of students who are fully proficient in English, and total number of non-Pre-Kindergarten students for public elementary, middle, and high schools in EBR Parish.](../EDA/scatterMatrix_S2018new_FullyEP_ED_pWhite_totNonPK.png)
 
 # Results
 \label{sec:results}
@@ -43,13 +72,14 @@ I propose to investigate the following research questions:
 ## Local Moran's I
 
 ### Median Household Income
-![Lagged median household income versus median household income.](../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaScatterPlotFrame.png){#id .class width=50% height=50%}
+![Lagged median household income versus median household income.](../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+
 ![Significance map.](../local_morans_i/univariate/Median_Household_Income/SigMap.png)
 
 ![Cluster map.](../local_morans_i/univariate/Median_Household_Income/ClusterMap.png)
 
 ### Population Percentage White
-![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotFrame.png)
+![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
 
 ![Significance map.](../local_morans_i/univariate/Pop_Perc_White/SigMap.png)
 
@@ -58,7 +88,7 @@ I propose to investigate the following research questions:
 ## Local Moran's I with EB rates
 - Population Percentage White
 
-![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png)
+![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
 
 ![Significance map.](../local_morans_i/univariate_EBrates/Pop_White/SigMap.png)
 
@@ -67,7 +97,7 @@ I propose to investigate the following research questions:
 ## Bivariate Local Moran's I
 - Median Household Income vs Lagged Population % White
 
-![Lagged population percentage white versus population percentage white.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_GroupLisaScatterPlotFrame.png)
+![Lagged population percentage white versus median household income.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
 
 ![Significance map.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png)
 

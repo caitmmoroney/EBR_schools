@@ -1,0 +1,37 @@
+>>12/20/2020 01:17:48 PM
+REGRESSION
+----------
+SUMMARY OF OUTPUT: SPATIAL LAG MODEL - MAXIMUM LIKELIHOOD ESTIMATION
+Data set            : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh
+Spatial Weight      : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh_SWM
+Dependent Variable  :    S2018new  Number of Observations:   69
+Mean dependent var  :     63.9565  Number of Variables   :    4
+S.D. dependent var  :     19.6155  Degrees of Freedom    :   65
+Lag coeff.   (Rho)  :   -0.114147
+
+R-squared           :    0.460999  Log likelihood        :    -281.997
+Sq. Correlation     : -            Akaike info criterion :     571.995
+Sigma-square        :     207.389  Schwarz criterion     :     580.931
+S.E of regression   :      14.401
+
+-----------------------------------------------------------------------------
+       Variable       Coefficient     Std.Error       z-value    Probability
+-----------------------------------------------------------------------------
+        W_S2018new     -0.114147       0.202322      -0.564187     0.57263
+          CONSTANT       54.3903        12.1341        4.48245     0.00001
+        PERC_WHITE       54.9639        11.6139        4.73259     0.00000
+          TotNonPK     0.0138227     0.00590525        2.34074     0.01925
+-----------------------------------------------------------------------------
+
+REGRESSION DIAGNOSTICS
+DIAGNOSTICS FOR HETEROSKEDASTICITY 
+RANDOM COEFFICIENTS
+TEST                                     DF      VALUE        PROB
+Breusch-Pagan test                       2         3.0641     0.21609
+
+DIAGNOSTICS FOR SPATIAL DEPENDENCE
+SPATIAL LAG DEPENDENCE FOR WEIGHT MATRIX : EBR_selected_public_elem_mid_high_schools_onlyEBRRSAhigh_SWM
+TEST                                     DF      VALUE        PROB
+Likelihood Ratio Test                    1         0.2467     0.61940
+============================== END OF REPORT ================================
+
