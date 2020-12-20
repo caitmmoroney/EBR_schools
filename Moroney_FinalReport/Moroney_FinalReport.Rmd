@@ -57,15 +57,18 @@ Tabular data joined to spatial feature classes include:
 
 After downloading these various data sources, I then performed the following operations: data cleaning, file format conversion, new field calculation, attribute table editing, table joining, clipping, selecting by location, and selecting by attribute. I cleaned the tabular data extensively in R and converted the .xls files to .csv files so as to prevent significant issues in importing the data into my ArcMap project. For the City of St. George polygon layer, I downloaded the KML file from Google Maps linked on the St. George website; I then used ArcCatalog to convert the KML file to a layer package I could import into ArcMap. Once I added the layers in ArcMap and created a geodatabase for the project in which I saved the various files, I began calculating new fields based on existing variables in the attribute tables. Namely, I calculated the percentage of White students and the percentage of non-White students for each school and school district in the Louisiana Department of Education data tables. I joined the Louisiana Department of Education school enrollment and performance data table and the National Center for Education Statistics private school data to the East Baton Rouge Parish schools point feature class, keeping only the records with corresponding matches (colleges and universities, for example, were included in the East Baton Rouge Parish schools layer, but they were not relevant to my analysis). I clipped the U.S. Census Bureau Unified School Districts for Louisiana to only select those within the East Baton Rouge Parish boundary. Then, I joined the Louisiana Department of Education school district performance data table to the school districts feature class. This was only possible after I started an editing session and edited values in the “School System” field of the tabular data to ensure that the names matched exactly with the names used in the East Baton Rouge Parish school districts feature class (for example, the “City of Baker School District” does not match “Baker City School District” even though they refer to the same school district).
 
-- Census Block Groups Analysis
-  - Spatial Weights Matrix: Queen's case first-order
-  - Local Moran's I
-  - Local Moran's I with EB rates
-  - Bivariate Local Moran's I
-  - Schools Analysis
-  - Spatial Weights Matrix: distance band (distance threshold = 14732 ft such that every point has a minimum of 1 neighbor); inverse distance weighting (power = 1); max neighbors = 19
-  - OLS Regression
-  - Spatial Regression
+I conduct two analyses, one taking the census block groups as the units for analysis and one taking the schools as the units for analysis.
+
+For the census block groups, I focus on median household income and the percentage of the population that identifies solely as White. I construct a spatial weights matrix using Queen's case first-order such that each census block group's neighbors are its immediately adjacent census block groups.
+
+- Local Moran's I
+- Local Moran's I with EB rates
+- Bivariate Local Moran's I
+
+To address my research questions focused on schools, I investigate the relationships between school performance scores, the percentage of the student body that identifies as White, the percentage of students who are economically disadvantaged, the percentage of students who are fully proficient in English, and the size of the school (as measured by the total number of non-pre-kindergarten students). I construct a spatial weights matrix using the distance band approach, where the threshold is set such that every point has at least one neighbor; I also apply inverse distance weighting.
+
+- OLS Regression
+- Spatial Regression
 
 # Exploratory Data Analysis
 
