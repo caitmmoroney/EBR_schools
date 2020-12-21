@@ -74,31 +74,6 @@ To address my research questions focused on schools, I investigate the relations
 
 I conduct two regressions, one with the percentage of economically disadvantaged students as the response variable, and the second with school performance scores as the response variable. Using GeoDa, I begin with ordinary least squares (OLS) regression and select the spatial weights matrix in order to view the spatial diagnostics. Based on the regression output, I then determine whether spatial regression is appropriate. If so, I apply either the spatial lag model or the spatial error model.
 
-# Exploratory Data Analysis
-
-## Median Household Income
-![Histogram of median household income.](../EDA/HistogramWStats_MDNHHIncome.png)
-
-## Population Percentage White
-
-![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite.png)
-
-### Most White
-![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite_SelectMostWhite.png)
-
-![Map of census block groups with the most population percentage white.](../EDA/Map_PercWhite_SelectMostWhite.png)
-
-### Least White
-![Histogram of population percentage white.](../EDA/HistogramWStats_PercWhite_SelectLeastWhite.png)
-
-![Map of census block groups with the least population percentage white.](../EDA/Map_PercWhite_SelectLeastWhite.png)
-
-## Bivariate Relationships
-![Cartogram of census block groups colored by the population percentage white with size annotating median household income.](../EDA/Cartogram_MedHHI_PercWhite.png)
-
-## School Performance Scores
-![Scatter plot matrix of 2017-2018 school performance scores, percentage of student body that is white, percentage of students who are economically disadvantaged, percentage of students who are fully proficient in English, and total number of non-Pre-Kindergarten students for public elementary, middle, and high schools in EBR Parish.](../EDA/scatterMatrix_S2018new_FullyEP_ED_pWhite_totNonPK.png)
-
 # Results
 \label{sec:results}
 
@@ -154,29 +129,29 @@ Here, we see statistically significant evidence of clustering in most of the Par
 
 ### OLS
 
-![](../spatial_regression/economically_disadvantaged/reg1_ols.png){width=80% height=80%}
+![OLS: percentage of economically disadvantaged students versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.](../spatial_regression/economically_disadvantaged/reg1_ols.png){width=80% height=80%}
 
-![](../spatial_regression/economically_disadvantaged/reg2_ols.png){width=80% height=80%}
+![OLS: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/reg2_ols.png){width=80% height=80%}
 
 ### Spatial Regression
 
-![Spatial error model.](../spatial_regression/economically_disadvantaged/spatial_error_model.png){width=80% height=80%}
+![Spatial error model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/spatial_error_model.png){width=80% height=80%}
 
-![Spatial lag model.](../spatial_regression/economically_disadvantaged/spatial_lag_model.png){width=80% height=80%}
+![Spatial lag model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/spatial_lag_model.png){width=80% height=80%}
 
 ## School Performance Scores
 
 ### OLS
 
-![](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.png){width=80% height=80%}
+![OLS: school performance score versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.png){width=80% height=80%}
 
-![](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.png){width=80% height=80%}
+![OLS: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.png){width=80% height=80%}
 
 ### Spatial Regression
 
-![Spatial error model.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_error_model.png){width=80% height=80%}
+![Spatial error model: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_error_model.png){width=80% height=80%}
 
-![Spatial lag model.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_lag_model.png)
+![Spatial lag model: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_lag_model.png)
 
 # Discussion
 
