@@ -105,36 +105,68 @@ I conduct two regressions, one with the percentage of economically disadvantaged
 ## Local Moran's I
 
 ### Median Household Income
+
 ![Lagged median household income versus median household income.](../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+
+Here, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish.
 
 ![Significance map.](../local_morans_i/univariate/Median_Household_Income/SigMap.png)
 
+The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southeastern foot of the Parish (where the City of St. George lies), we see significant clustering of census block groups with a higher-than-average median household income. In the central western area, we see mostly low-low clusters, indicating census block groups with lower-than-average median household income surrounded by neighboring census block groups with lower-than-average median household income.
+
 ![Cluster map.](../local_morans_i/univariate/Median_Household_Income/ClusterMap.png)
 
+While there are a handful of high-low and low-high outliers, most of the significant census block groups show evidence of spatial autocorrelation. As mentioned above, the large pocket of high-high clustering overlaps largely with the City of St. George, whereas the low-low clusters are in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
+
 ### Population Percentage White
+
 ![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+
+Here, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish.
 
 ![Significance map.](../local_morans_i/univariate/Pop_Perc_White/SigMap.png)
 
+The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white.
+
 ![Cluster map.](../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png)
 
+While there are a handful of statistically significant low-high outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
+
 ## Local Moran's I with EB rates
-- Population Percentage White
+
+Because the percentage of the population that is white is a proportion, it is possible that my first analysis suffered from the identification of spurious outliers. This is due to the fact that variables that are rates or proportions have inherent variance instability. When features have different population sizes, features with smaller populations have more variable rates than features with larger populations.
 
 ![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
 
+With EB standardization, the rates are adjusted so that rates for features with small populations are pulled closer to the overall average more so than the rates for features with large populations. Note that when the base populations across all features are relatively similar (meaning there is little variance), using local Moran’s with EB rates may not be necessary. Although census block groups are statistically designed to contain roughly the same number of people, I redo the Local Moran's I analysis for the percentage of the population that identifies solely as white, applying the Empirical Bayes rate correction.
+
+Here, we see statistically significant evidence of clustering in most parts of the Parish.
+
 ![Significance map.](../local_morans_i/univariate_EBrates/Pop_White/SigMap.png)
+
+The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we again see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white.
 
 ![Cluster map.](../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png)
 
+In other words, the Local Moran's I with EB rates produces identical to the regular Local Moran's I analysis of this variable. As mentioned above, this is not surprising given that there is unlikely to be significant variance in the census block group populations by design.
+
 ## Bivariate Local Moran's I
-- Median Household Income vs Lagged Population % White
+
+The bivariate Local Moran’s I allows us to compare the spatial distribution of two variables, $X$ and $Y$ (in this case, $X$ is median household income, and $Y$ is population percentage white). For a contiguous feature set of polygons we can compare the value of $X$ at the $i^{th}$ feature to the values of $Y$ at the neighboring features, $N(i)$.
 
 ![Lagged population percentage white versus median household income.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
 
+This analysis allows us to determine whether there is a statistically significant relationship between $X$ and $Y$ for each feature in the analysis.
+
+Here, we see statistically significant evidence of clustering in most of the Parish, aside from the northwest corner.
+
 ![Significance map.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png)
 
+The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we see significant high-high clusters. These census block groups have a higher-than-average median household income and are neighbored by census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average median household income surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white.
+
 ![Cluster map.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.png)
+
+While there are a handful of statistically significant low-high and high-low outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
 
 ## OLS Regression
 
