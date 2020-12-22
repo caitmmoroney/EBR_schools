@@ -2,7 +2,7 @@
 title: School District Secession in East Baton Rouge
 author: Caitlin Moroney
 abstract: |
-  Enter the text of your abstract here.
+  In this project, I examine the spatial relationships between school performance and socioeconomic variables, such as race and income. I take as a case study for my analysis the region of East Baton Rouge Parish in southern Louisiana. I conduct two sets of analyses, one taking census block groups as the unit of analysis. These analyses consist of variations on the Local Moran's I which help to identify statistically significant spatial autocorrelation. The second set of analyses are regression models which use schools as the unit of analysis. I conduct both OLS regression and spatial regression, including the spatial error model and spatial lag model. From the Local Moran's analyses, I find statistically significant clusters of the white percentage of the population, median household income, and the collocation of these variables across census block groups. My regression analyses diverge in the selection of dependent variable. The models which seek to predict the percentage of economically disadvantaged students suggest that there is a statistically significant negative relationship between the percentage of white students and the percentage of economically disadvantaged students. The models which take school performance scores as the dependent variable produce evidence of a statistically significant postiive relationship between school performance and the percentage of white students.
 bibliography: references.bib
 output: pdf_document
 ---
