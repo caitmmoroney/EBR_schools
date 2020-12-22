@@ -79,51 +79,111 @@ I conduct two regressions, one with the percentage of economically disadvantaged
 
 ## Local Moran's I
 
-![Lagged median household income versus median household income.](../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaScatterPlotFrame.png}
+\caption{Lagged median household income versus median household income.}
+\label{fig:scatter_mhhi}
+\end{figure}
 
 ### Median Household Income
 
-![Significance map: median household income.](../local_morans_i/univariate/Median_Household_Income/SigMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate/Median_Household_Income/SigMap.png}
+\caption{Significance map: median household income.}
+\label{fig:sig_mhhi}
+\end{figure}
 
-Here, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southeastern foot of the Parish (where the City of St. George lies), we see significant clustering of census block groups with a higher-than-average median household income. In the central western area, we see mostly low-low clusters, indicating census block groups with lower-than-average median household income surrounded by neighboring census block groups with lower-than-average median household income. While there are a handful of high-low and low-high outliers, most of the significant census block groups show evidence of spatial autocorrelation. As mentioned above, the large pocket of high-high clustering overlaps largely with the City of St. George, whereas the low-low clusters are in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
+In Figure \ref{fig:sig_mhhi}, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot (see Figure \ref{fig:scatter_mhhi}) and the cluster map (see Figure \ref{fig:cluster_mhhi}). In the southeastern foot of the Parish (where the City of St. George lies), we see significant clustering of census block groups with a higher-than-average median household income. In the central western area, we see mostly low-low clusters, indicating census block groups with lower-than-average median household income surrounded by neighboring census block groups with lower-than-average median household income. While there are a handful of high-low and low-high outliers, most of the significant census block groups show evidence of spatial autocorrelation. As mentioned above, the large pocket of high-high clustering overlaps largely with the City of St. George, whereas the low-low clusters are in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
 
-![Cluster map: median household income.](../local_morans_i/univariate/Median_Household_Income/ClusterMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate/Median_Household_Income/ClusterMap.png}
+\caption{Cluster map: median household income.}
+\label{fig:cluster_mhhi}
+\end{figure}
 
 ### Population Percentage White
 
-![Lagged population percentage white versus population percentage white.](../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotFrame.png}
+\caption{Lagged population percentage white versus population percentage white.}
+\label{fig:scatter_uni}
+\end{figure}
 
-Here, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white. While there are a handful of statistically significant low-high outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
+In Figure \ref{fig:sig_uni}, we see statistically significant evidence of clustering in the southwestern and southeastern parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot (see Figure \ref{fig:scatter_uni}) and the cluster map (see Figure \ref{fig:cluster_uni}). In the southern and northeastern parts of the Parish, we see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white. While there are a handful of statistically significant low-high outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
 
-![Significance map: population percentage white.](../local_morans_i/univariate/Pop_Perc_White/SigMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate/Pop_Perc_White/SigMap.png}
+\caption{Significance map: population percentage white.}
+\label{fig:sig_uni}
+\end{figure}
 
-![Cluster map: population percentage white.](../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png}
+\caption{Cluster map: population percentage white.}
+\label{fig:cluster_uni}
+\end{figure}
 
 ## Local Moran's I with EB rates
 
-![Lagged population percentage white versus population percentage white (with EB rates).](../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png}
+\caption{Lagged population percentage white versus population percentage white (with EB rates).}
+\label{fig:scatter_eb}
+\end{figure}
 
 Because the percentage of the population that is white is a proportion, it is possible that my first analysis suffered from the identification of spurious outliers. This is due to the fact that variables that are rates or proportions have inherent variance instability. When features have different population sizes, features with smaller populations have more variable rates than features with larger populations. With EB standardization, the rates are adjusted so that rates for features with small populations are pulled closer to the overall average more so than the rates for features with large populations. Note that when the base populations across all features are relatively similar (meaning there is little variance), using local Moran’s with EB rates may not be necessary. Although census block groups are statistically designed to contain roughly the same number of people, I redo the Local Moran's I analysis for the percentage of the population that identifies solely as white, applying the Empirical Bayes rate correction.
 
-![Significance map: population percentage white (with EB rates).](../local_morans_i/univariate_EBrates/Pop_White/SigMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate_EBrates/Pop_White/SigMap.png}
+\caption{Significance map: population percentage white (with EB rates).}
+\label{fig:sig_eb}
+\end{figure}
 
-Here, we see statistically significant evidence of clustering in most parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we again see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white.
+In Figure \ref{fig:sig_eb}, we see statistically significant evidence of clustering in most parts of the Parish. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot (see Figure \ref{fig:scatter_eb}) and the cluster map (see Figure \ref{fig:cluster_eb}). In the southern and northeastern parts of the Parish, we again see significant clustering of census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average percentage of the population that is white surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white.
 
-![Cluster map: population percentage white (with EB rates).](../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png}
+\caption{Cluster map: population percentage white (with EB rates).}
+\label{fig:cluster_eb}
+\end{figure}
 
 In other words, the Local Moran's I with EB rates produces identical to the regular Local Moran's I analysis of this variable. As mentioned above, this is not surprising given that there is unlikely to be significant variance in the census block group populations by design.
 
 ## Bivariate Local Moran's I
 
-![Lagged population percentage white versus median household income.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_GroupLisaScatterPlotFrame.png){width=75% height=75%}
+\begin{figure}
+\centering
+\includegraphics[width=0.75\textwidth]{../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_GroupLisaScatterPlotFrame.png}
+\caption{Lagged population percentage white versus median household income.}
+\label{fig:scatter_biv}
+\end{figure}
 
 The bivariate Local Moran’s I allows us to compare the spatial distribution of two variables, $X$ and $Y$ (in this case, $X$ is median household income, and $Y$ is population percentage white). For a contiguous feature set of polygons we can compare the value of $X$ at the $i^{th}$ feature to the values of $Y$ at the neighboring features, $N(i)$. This analysis allows us to determine whether there is a statistically significant relationship between $X$ and $Y$ for each feature in the analysis.
 
-![Significance map: lagged population percentage white versus median household income.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png}
+\caption{Significance map: lagged population percentage white versus median household income.}
+\label{fig:sig_biv}
+\end{figure}
 
-Here, we see statistically significant evidence of clustering in most of the Parish, aside from the northwest corner. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot and the cluster map. In the southern and northeastern parts of the Parish, we see significant high-high clusters. These census block groups have a higher-than-average median household income and are neighbored by census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average median household income surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white. While there are a handful of statistically significant low-high and high-low outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
+In Figure \ref{fig:sig_biv}, we see statistically significant evidence of clustering in most of the Parish, aside from the northwest corner. The general trend indicates spatial autocorrelation, as is evident in the LISA scatter plot (see Figure \ref{fig:scatter_biv}) and the cluster map (see Figure \ref{fig:cluster_biv}). In the southern and northeastern parts of the Parish, we see significant high-high clusters. These census block groups have a higher-than-average median household income and are neighbored by census block groups with a higher-than-average percentage of the population that is white. In the central western area, we see mostly low-low clusters, indicating census block groups with a lower-than-average median household income surrounded by neighboring census block groups with a lower-than-average percentage of the population that is white. While there are a handful of statistically significant low-high and high-low outliers, most of the significant census block groups show strong evidence of spatial autocorrelation. The high-high clusters overlap to some extent with the City of St. George and Central Community School District. The low-low cluster is in the more densely populated part of the Parish which falls within East Baton Rouge Parish School District.
 
-![Cluster map: lagged population percentage white versus median household income.](../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.png){width=50% height=50%}
+\begin{figure}
+\centering
+\includegraphics[width=0.5\textwidth]{../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.png}
+\caption{Cluster map: lagged population percentage white versus median household income.}
+\label{fig:cluster_biv}
+\end{figure}
 
 ## Regression: Percentage Economically Disadvantaged Students
 
@@ -131,13 +191,23 @@ In order to answer my research questions about the relationships between school 
 
 ### OLS
 
-![OLS: percentage of economically disadvantaged students versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.](../spatial_regression/economically_disadvantaged/reg1_ols.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/economically_disadvantaged/reg1_ols.png}
+\caption{OLS: percentage of economically disadvantaged students versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.}
+\label{fig:ed_ols1}
+\end{figure}
 
-I begin with OLS regression (see LINK TO FIGURE), focusing first on the standard OLS output to determine whether the predictors I have chosen actually hold explanatory power for the percentage of economically disadvantaged students. With my first regression, I can see that the percentage of students who are fully proficient in English is not a statistically significant predictor, with a p-value of 0.41656. The multicollinearity number, at 29.79, is quite high which is a further indication that at least one of the predictors is redundant. The other variables appear to be statistically significant, so I will run another OLS regression removing the percentage of students who are proficient in English as a predictor. For comparison, the adjusted R-squared for the first model is 0.767863, the AIC is -128.353, and the SBC is -119.417.
+I begin with OLS regression (see Figure \ref{fig:ed_ols1}), focusing first on the standard OLS output to determine whether the predictors I have chosen actually hold explanatory power for the percentage of economically disadvantaged students. With my first regression, I can see that the percentage of students who are fully proficient in English is not a statistically significant predictor, with a p-value of 0.41656. The multicollinearity number, at 29.79, is quite high which is a further indication that at least one of the predictors is redundant. The other variables appear to be statistically significant, so I will run another OLS regression removing the percentage of students who are proficient in English as a predictor. For comparison, the adjusted R-squared for the first model is 0.767863, the AIC is -128.353, and the SBC is -119.417.
 
-![OLS: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/reg2_ols.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/economically_disadvantaged/reg2_ols.png}
+\caption{OLS: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:ed_ols2}
+\end{figure}
 
-For the second OLS regression (see LINK TO FIGURE), we see that the percentage of white students and the total number of non-pre-kindergarten students are both still statistically significant. The multicollinearity number has decreased significantly to just 4.51, which suggests that we do not have any redundant variables. We can also confirm that this model is better than our first model because the adjusted R-squared has increased from approximately 0.768 to 0.769; also, the AIC and SBC have both decreased to about -129.6 and -122.9, respectively. We can see from the coefficient estimates that the percentage of white students has a negative relationship with the percentage of economically disadvantaged students; in other words, as the share of white students increases, the share of economically disadvantaged students decreases, indicating a significant relationship between race and socioeconomic status in schools. This suggests that schools with a larger share of minority students tend to have a larger share of economically disadvantaged students than whiter schools. Next, we examine the diagnostics.
+For the second OLS regression (see Figure \ref{fig:ed_ols2}), we see that the percentage of white students and the total number of non-pre-kindergarten students are both still statistically significant. The multicollinearity number has decreased significantly to just 4.51, which suggests that we do not have any redundant variables. We can also confirm that this model is better than our first model because the adjusted R-squared has increased from approximately 0.768 to 0.769; also, the AIC and SBC have both decreased to about -129.6 and -122.9, respectively. We can see from the coefficient estimates that the percentage of white students has a negative relationship with the percentage of economically disadvantaged students; in other words, as the share of white students increases, the share of economically disadvantaged students decreases, indicating a significant relationship between race and socioeconomic status in schools. This suggests that schools with a larger share of minority students tend to have a larger share of economically disadvantaged students than whiter schools. Next, we examine the diagnostics.
 
 To determine whether the assumption of normality holds, we can look at the Jarque-Bera statistic, which has a p-value of 0.00000. This suggests that our residuals do not follow a normal distribution, which violates one of the basic assumptions for OLS regression. Although this is a serious issue, it is outside the scope of this paper to address non-normality by applying a different model.
 
@@ -147,16 +217,26 @@ Finally, we examine the spatial dependence diagnostics. The Moran's I analysis p
 
 ### Spatial Regression
 
-![Spatial error model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/spatial_error_model.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/economically_disadvantaged/spatial_error_model.png}
+\caption{Spatial error model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:ed_error}
+\end{figure}
 
-The spatial error model adds a term to the OLS regression model whose coefficient, lambda, is the coefficient for the spatial error term. The spatial error model can be represented as follows:
+The spatial error model (see Figure \ref{fig:ed_error}) adds a term to the OLS regression model whose coefficient, lambda, is the coefficient for the spatial error term. The spatial error model can be represented as follows:
 $$y_i = x_i \beta + \lambda w_i \epsilon_i + u_i.$$
 
 With $\alpha = 0.05$, the estimated lambda is just barely statistically significant, with a p-value of 0.04289. To determine whether this model really is an improvement over the original model, I will also note that the R-squared is now 0.786312 (it was 0.775823 for the first model), and the AIC and SBC have both decreased. These results suggest that the spatial error model is an improvement over the regular OLS model. However, the results of the likelihood ratio test, with a p-value of 0.15678, are not statistically significant; the results of this test are inconclusive on whether the spatial error model improves upon the OLS model. Next, I consider the spatial lag model.
 
-![Spatial lag model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/economically_disadvantaged/spatial_lag_model.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/economically_disadvantaged/spatial_lag_model.png}
+\caption{Spatial lag model: percentage of economically disadvantaged students versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:ed_lag}
+\end{figure}
 
-The spatial lag model also adds a term to the OLS regression model; $\rho$ is the coefficient for the spatial lag term. It captures any spatial dependence in the data. The spatial lag model can be represented as follows:
+The spatial lag model (see Figure \ref{fig:ed_lag}) also adds a term to the OLS regression model; $\rho$ is the coefficient for the spatial lag term. It captures any spatial dependence in the data. The spatial lag model can be represented as follows:
 $$y_i = x_i \beta + \rho w_i y_j + u_i.$$
 
 With $\alpha = 0.05$, the estimated $\rho$ is statistically significant, with a p-value of 0.00224, and it has a negative effect. Interestingly, the magnitude of the coefficient for percentage of white students increased by a lot, from 0.727 to 0.882 for the OLS model and the spatial lag model, respectively. To determine whether this model is an improvement over the original model, I will note that the R-squared is now 0.800964 (compared to 0.775823 for the OLS model), and the AIC and SBC have both decreased. The AIC is -134.808, and the SBC is -125.871, the lowest values for AIC and SBC across all of the models thus far. These results suggest that the spatial lag model is an improvement over the regular OLS model (and is possibly a better fit than the spatial error model). The results of the likelihood ratio test, with a p-value of 0.00745, further confirm this conclusion. Based on these tests, I conclude that the spatial lag model improves upon the OLS model.
@@ -167,13 +247,23 @@ The next series of regressions takes school performance scores as the dependent 
 
 ### OLS
 
-![OLS: school performance score versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.png}
+\caption{OLS: school performance score versus percentage of white students, total non-pre-kindergarten students, and percentage of students fully proficient in English.}
+\label{fig:sps_ols1}
+\end{figure}
 
-With this first regression, I can see that the percentage of students who are fully proficient in English is again not a statistically significant predictor, with a p-value of 0.79535. The multicollinearity number, as before, suggests that at least one of the predictors is redundant. The other variables appear to be statistically significant, so I will run another OLS regression removing the percentage of students who are proficient in English as a predictor. For comparison, the adjusted R-squared for the first model is 0.433922, the AIC is 572.169, and the SBC is 581.106.
+With this first regression (see Figure \ref{fig:sps_ols1}), I can see that the percentage of students who are fully proficient in English is again not a statistically significant predictor, with a p-value of 0.79535. The multicollinearity number, as before, suggests that at least one of the predictors is redundant. The other variables appear to be statistically significant, so I will run another OLS regression removing the percentage of students who are proficient in English as a predictor. For comparison, the adjusted R-squared for the first model is 0.433922, the AIC is 572.169, and the SBC is 581.106.
 
-![OLS: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.png}
+\caption{OLS: school performance score versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:sps_ols2}
+\end{figure}
 
-For $\alpha = 0.05$, the remaining variables remain statistically significant. The adjusted R-squared has increased to 0.441918, the first indication that this model outperforms the first OLS regression. Secondly, the AIC and SBC have both decreased: the AIC is now 570.241, and the SBC is 576.944, which is another indication that this model is a better fit. The percentage of white students and the total number of non-pre-kindergarten students both have a positive relationship with school performance; however, the coefficient magnitude is much larger for the former, suggesting that the percentage of white students has a larger impact on the school performance score. Next, I consider the regression diagnostics.
+See Figure \ref{fig:sps_ols2} for the second OLS model output. For $\alpha = 0.05$, the remaining variables remain statistically significant. The adjusted R-squared has increased to 0.441918, the first indication that this model outperforms the first OLS regression. Secondly, the AIC and SBC have both decreased: the AIC is now 570.241, and the SBC is 576.944, which is another indication that this model is a better fit. The percentage of white students and the total number of non-pre-kindergarten students both have a positive relationship with school performance; however, the coefficient magnitude is much larger for the former, suggesting that the percentage of white students has a larger impact on the school performance score. Next, I consider the regression diagnostics.
 
 The results of the non-normality test suggest that the assumption of error normality is not violated. Furthermore, the results of the Breusch-Pagan and Koenker-Bassett tests are not statistically significant, which suggests that our assumption of homoskedasticity is valid. However, I will note that the White robust test results provide some evidence for the presence of heteroskedasticity.
 
@@ -181,13 +271,22 @@ The diagnostics for spatial dependence are similarly conclusive. Neither the Mor
 
 ### Spatial Regression
 
-![Spatial error model: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_error_model.png){width=80% height=80%}
+\begin{figure}
+\centering
+\includegraphics[width=0.8\textwidth]{../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_error_model.png}
+\caption{Spatial error model: school performance score versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:sps_error}
+\end{figure}
 
-The spatial error model results show that the coefficient lambda is statistically significant, with a p-value of 0.03995. The R-squared is approximately 0.486, whereas it was about 0.458 for the OLS model; this suggests that the spatial error term helps to explain more of the observed variance in school performance scores. Similarly, the AIC and SBC have both decreased from about 570.24 to 567.98 and about 576.94 to 574.68, respectively. This is further evidence that the spatial error model improves upon the OLS model. Finally, I consider the results of the likelihood ratio test, which are statistically insignificant. Overall, the results are therefore inconclusive on whether the spatial error model greatly improves upon the OLS model; however, because the R-squared increased, and both the AIC and SBC decreased, I would say that this model is a better fit than the OLS model.
+The spatial error model results (see Figure \ref{fig:sps_error}) show that the coefficient lambda is statistically significant, with a p-value of 0.03995. The R-squared is approximately 0.486, whereas it was about 0.458 for the OLS model; this suggests that the spatial error term helps to explain more of the observed variance in school performance scores. Similarly, the AIC and SBC have both decreased from about 570.24 to 567.98 and about 576.94 to 574.68, respectively. This is further evidence that the spatial error model improves upon the OLS model. Finally, I consider the results of the likelihood ratio test, which are statistically insignificant. Overall, the results are therefore inconclusive on whether the spatial error model greatly improves upon the OLS model; however, because the R-squared increased, and both the AIC and SBC decreased, I would say that this model is a better fit than the OLS model.
 
-![Spatial lag model: school performance score versus percentage of white students and total non-pre-kindergarten students.](../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_lag_model.png)
+\begin{figure}
+\includegraphics{../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_lag_model.png}
+\caption{Spatial lag model: school performance score versus percentage of white students and total non-pre-kindergarten students.}
+\label{fig:sps_lag}
+\end{figure}
 
-The results from the spatial lag model hypothesis tests are more conclusive: this model does not appear to be an appropriate fit for the data. While the R-squared (0.460999) is slightly larger than that of the OLS model (R-squared = 0.458332), the AIC increased from 570.24 to 572.00, and the SBC increased from 576.94 to 580.93, which both suggest a worse model fit. Furthermore, the $\rho$ coefficient is relatively small in magnitude and not statistically significant ($p = 0.57263$). The likelihood ratio test is also not statistically significant, with a p-value of 0.6194. Therefore, I conclude that the spatial lag model does not provide a better fit than OLS.
+The results from the spatial lag model hypothesis tests (see Figure \ref{fig:sps_lag}) are more conclusive: this model does not appear to be an appropriate fit for the data. While the R-squared (0.460999) is slightly larger than that of the OLS model (R-squared = 0.458332), the AIC increased from 570.24 to 572.00, and the SBC increased from 576.94 to 580.93, which both suggest a worse model fit. Furthermore, the $\rho$ coefficient is relatively small in magnitude and not statistically significant ($p = 0.57263$). The likelihood ratio test is also not statistically significant, with a p-value of 0.6194. Therefore, I conclude that the spatial lag model does not provide a better fit than OLS.
 
 # Discussion
 
