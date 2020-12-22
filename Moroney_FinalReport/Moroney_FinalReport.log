@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  21 DEC 2020 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  22 DEC 2020 00:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -973,256 +973,245 @@ File: ../EBR_Parish_context.jpg Graphic file (type jpg)
 Package pdftex.def Info: ../EBR_Parish_context.jpg used on input line 190.
 (pdftex.def)             Requested size: 352.32495pt x 193.40762pt.
 
-Package hyperref Warning: Suppressing empty link on input line 196.
-
-
-Package hyperref Warning: Suppressing empty link on input line 197.
-
-
-Package hyperref Warning: Suppressing empty link on input line 198.
-
-
 <../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisaSca
-tterPlotFrame.png, id=56, 602.25pt x 315.1775pt>
+tterPlotFrame.png, id=58, 602.25pt x 315.1775pt>
 File: ../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLi
 saScatterPlotFrame.png Graphic file (type png)
 
 <use ../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLis
 aScatterPlotFrame.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Median_Household_Income/C
-ensus_Block_GroupLisaScatterPlotFrame.png used on input line 249.
+ensus_Block_GroupLisaScatterPlotFrame.png used on input line 247.
 (pdftex.def)             Requested size: 352.32861pt x 184.3853pt.
 [3 <../EBR_Parish_context.jpg>]
-<../local_morans_i/univariate/Median_Household_Income/SigMap.png, id=71, 383.51
+<../local_morans_i/univariate/Median_Household_Income/SigMap.png, id=75, 383.51
 28pt x 280.4076pt>
 File: ../local_morans_i/univariate/Median_Household_Income/SigMap.png Graphic f
 ile (type png)
 <use ../local_morans_i/univariate/Median_Household_Income/SigMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Median_Household_Income/S
-igMap.png used on input line 287.
+igMap.png used on input line 278.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-
-<../local_morans_i/univariate/Median_Household_Income/ClusterMap.png, id=72, 38
+[4 <../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisa
+ScatterPlotFrame.png> <../local_morans_i/univariate/Median_Household_Income/Sig
+Map.png>]
+<../local_morans_i/univariate/Median_Household_Income/ClusterMap.png, id=85, 38
 3.5128pt x 280.4076pt>
 File: ../local_morans_i/univariate/Median_Household_Income/ClusterMap.png Graph
 ic file (type png)
 <use ../local_morans_i/univariate/Median_Household_Income/ClusterMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Median_Household_Income/C
-lusterMap.png used on input line 316.
+lusterMap.png used on input line 305.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-[4 <../local_morans_i/univariate/Median_Household_Income/Census_Block_GroupLisa
-ScatterPlotFrame.png>] [5 <../local_morans_i/univariate/Median_Household_Income
-/SigMap.png> <../local_morans_i/univariate/Median_Household_Income/ClusterMap.p
-ng>]
+
 <../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPlotF
-rame.png, id=90, 602.25pt x 315.1775pt>
+rame.png, id=86, 602.25pt x 315.1775pt>
 File: ../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatter
 PlotFrame.png Graphic file (type png)
 
 <use ../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterP
 lotFrame.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Pop_Perc_White/Census_Blo
-ck_GroupLisaScatterPlotFrame.png used on input line 345.
+ck_GroupLisaScatterPlotFrame.png used on input line 334.
 (pdftex.def)             Requested size: 352.32861pt x 184.3853pt.
-
-<../local_morans_i/univariate/Pop_Perc_White/SigMap.png, id=94, 383.5128pt x 28
-0.4076pt>
+[5 <../local_morans_i/univariate/Median_Household_Income/ClusterMap.png>]
+<../local_morans_i/univariate/Pop_Perc_White/SigMap.png, id=106, 383.5128pt x 2
+80.4076pt>
 File: ../local_morans_i/univariate/Pop_Perc_White/SigMap.png Graphic file (type
  png)
 <use ../local_morans_i/univariate/Pop_Perc_White/SigMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Pop_Perc_White/SigMap.png
- used on input line 381.
+ used on input line 370.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
 [6 <../local_morans_i/univariate/Pop_Perc_White/Census_Block_GroupLisaScatterPl
-otFrame.png>]
-<../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png, id=113, 383.5128pt
+otFrame.png> <../local_morans_i/univariate/Pop_Perc_White/SigMap.png>]
+<../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png, id=121, 383.5128pt
  x 280.4076pt>
 File: ../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png Graphic file (
 type png)
 <use ../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate/Pop_Perc_White/ClusterMap
-.png used on input line 410.
+.png used on input line 399.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
 
 <../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPl
-otFrame.png, id=114, 602.25pt x 315.1775pt>
+otFrame.png, id=122, 602.25pt x 315.1775pt>
 File: ../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScat
 terPlotFrame.png Graphic file (type png)
 
 <use ../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatt
 erPlotFrame.png>
 Package pdftex.def Info: ../local_morans_i/univariate_EBrates/Pop_White/Census_
-Block_GroupLisaScatterPlotFrame.png used on input line 421.
+Block_GroupLisaScatterPlotFrame.png used on input line 410.
 (pdftex.def)             Requested size: 352.32861pt x 184.3853pt.
-[7 <../local_morans_i/univariate/Pop_Perc_White/SigMap.png> <../local_morans_i/
-univariate/Pop_Perc_White/ClusterMap.png>]
-<../local_morans_i/univariate_EBrates/Pop_White/SigMap.png, id=127, 383.5128pt 
+[7 <../local_morans_i/univariate/Pop_Perc_White/ClusterMap.png> <../local_moran
+s_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatterPlotFrame.png>]
+<../local_morans_i/univariate_EBrates/Pop_White/SigMap.png, id=133, 383.5128pt 
 x 280.4076pt>
 File: ../local_morans_i/univariate_EBrates/Pop_White/SigMap.png Graphic file (t
 ype png)
 <use ../local_morans_i/univariate_EBrates/Pop_White/SigMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate_EBrates/Pop_White/SigMap.
-png used on input line 444.
+png used on input line 433.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-[8 <../local_morans_i/univariate_EBrates/Pop_White/Census_Block_GroupLisaScatte
-rPlotFrame.png> <../local_morans_i/univariate_EBrates/Pop_White/SigMap.png>]
-<../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png, id=140, 383.512
+
+<../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png, id=137, 383.512
 8pt x 280.4076pt>
 File: ../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png Graphic fil
 e (type png)
 <use ../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png>
 Package pdftex.def Info: ../local_morans_i/univariate_EBrates/Pop_White/Cluster
-Map.png used on input line 468.
+Map.png used on input line 457.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-
+[8 <../local_morans_i/univariate_EBrates/Pop_White/SigMap.png> <../local_morans
+_i/univariate_EBrates/Pop_White/ClusterMap.png>]
 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_Grou
-pLisaScatterPlotFrame.png, id=144, 602.25pt x 315.1775pt>
+pLisaScatterPlotFrame.png, id=153, 602.25pt x 315.1775pt>
 File: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block
 _GroupLisaScatterPlotFrame.png Graphic file (type png)
 
 <use ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_
 GroupLisaScatterPlotFrame.png>
 Package pdftex.def Info: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_Per
-cWhite/Census_Block_GroupLisaScatterPlotFrame.png used on input line 507.
+cWhite/Census_Block_GroupLisaScatterPlotFrame.png used on input line 496.
 (pdftex.def)             Requested size: 352.32861pt x 184.3853pt.
-[9 <../local_morans_i/univariate_EBrates/Pop_White/ClusterMap.png>]
-<../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png, id=16
-3, 383.5128pt x 280.4076pt>
+[9 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_G
+roupLisaScatterPlotFrame.png>]
+<../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png, id=17
+0, 383.5128pt x 280.4076pt>
 File: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png G
 raphic file (type png)
 <use ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png>
 Package pdftex.def Info: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_Per
-cWhite/SigMap.png used on input line 545.
+cWhite/SigMap.png used on input line 534.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-[10 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/Census_Block_
-GroupLisaScatterPlotFrame.png> <../local_morans_i/bivariate/MedHouseholdIncome_
-Lag_PercWhite/SigMap.png>]
+
 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.png, i
-d=174, 383.5128pt x 280.4076pt>
+d=172, 383.5128pt x 280.4076pt>
 File: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.p
 ng Graphic file (type png)
 
 <use ../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.pn
 g>
 Package pdftex.def Info: ../local_morans_i/bivariate/MedHouseholdIncome_Lag_Per
-cWhite/ClusterMap.png used on input line 577.
+cWhite/ClusterMap.png used on input line 566.
 (pdftex.def)             Requested size: 234.88461pt x 171.73724pt.
-
-<../spatial_regression/economically_disadvantaged/reg1_ols.png, id=175, 538.01p
+[10 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/SigMap.png> <
+../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.png>]
+<../spatial_regression/economically_disadvantaged/reg1_ols.png, id=180, 538.01p
 t x 668.4975pt>
 File: ../spatial_regression/economically_disadvantaged/reg1_ols.png Graphic fil
 e (type png)
 <use ../spatial_regression/economically_disadvantaged/reg1_ols.png>
 Package pdftex.def Info: ../spatial_regression/economically_disadvantaged/reg1_
-ols.png used on input line 601.
+ols.png used on input line 590.
 (pdftex.def)             Requested size: 375.80812pt x 466.95561pt.
 
-<../spatial_regression/economically_disadvantaged/reg2_ols.png, id=177, 540.017
+<../spatial_regression/economically_disadvantaged/reg2_ols.png, id=182, 540.017
 5pt x 655.44875pt>
 File: ../spatial_regression/economically_disadvantaged/reg2_ols.png Graphic fil
 e (type png)
 <use ../spatial_regression/economically_disadvantaged/reg2_ols.png>
 Package pdftex.def Info: ../spatial_regression/economically_disadvantaged/reg2_
-ols.png used on input line 627.
+ols.png used on input line 616.
 (pdftex.def)             Requested size: 375.80959pt x 456.14064pt.
-[11 <../local_morans_i/bivariate/MedHouseholdIncome_Lag_PercWhite/ClusterMap.pn
-g>] [12 <../spatial_regression/economically_disadvantaged/reg1_ols.png>] [13 <.
-./spatial_regression/economically_disadvantaged/reg2_ols.png>]
+
 <../spatial_regression/economically_disadvantaged/spatial_error_model.png, id=1
-98, 551.05875pt x 472.76625pt>
+84, 551.05875pt x 472.76625pt>
 File: ../spatial_regression/economically_disadvantaged/spatial_error_model.png 
 Graphic file (type png)
 
 <use ../spatial_regression/economically_disadvantaged/spatial_error_model.png>
 Package pdftex.def Info: ../spatial_regression/economically_disadvantaged/spati
-al_error_model.png used on input line 656.
+al_error_model.png used on input line 645.
 (pdftex.def)             Requested size: 375.81648pt x 322.4218pt.
-[14 <../spatial_regression/economically_disadvantaged/spatial_error_model.png>]
-
-<../spatial_regression/economically_disadvantaged/spatial_lag_model.png, id=209
+[11] [12 <../spatial_regression/economically_disadvantaged/reg1_ols.png>] [13 <
+../spatial_regression/economically_disadvantaged/reg2_ols.png>] [14 <../spatial
+_regression/economically_disadvantaged/spatial_error_model.png>]
+<../spatial_regression/economically_disadvantaged/spatial_lag_model.png, id=215
 , 552.0625pt x 472.76625pt>
 File: ../spatial_regression/economically_disadvantaged/spatial_lag_model.png Gr
 aphic file (type png)
 <use ../spatial_regression/economically_disadvantaged/spatial_lag_model.png>
 Package pdftex.def Info: ../spatial_regression/economically_disadvantaged/spati
-al_lag_model.png used on input line 685.
+al_lag_model.png used on input line 674.
 (pdftex.def)             Requested size: 375.81871pt x 321.83748pt.
 
 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.png,
- id=211, 538.01pt x 667.49374pt>
+ id=217, 538.01pt x 667.49374pt>
 File: ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols
 .png Graphic file (type png)
 
 <use ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.
 png>
 Package pdftex.def Info: ../spatial_regression/school_performance_2018/SPS_vs_a
-ll_minusED/reg5_ols.png used on input line 712.
+ll_minusED/reg5_ols.png used on input line 701.
 (pdftex.def)             Requested size: 375.80812pt x 466.25449pt.
 [15 <../spatial_regression/economically_disadvantaged/spatial_lag_model.png>] [
 16 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg5_ols.p
 ng>]
 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.png,
- id=226, 540.0175pt x 657.45625pt>
+ id=230, 540.0175pt x 657.45625pt>
 File: ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols
 .png Graphic file (type png)
 
 <use ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6_ols.
 png>
 Package pdftex.def Info: ../spatial_regression/school_performance_2018/SPS_vs_a
-ll_minusED/reg6_ols.png used on input line 747.
+ll_minusED/reg6_ols.png used on input line 736.
 (pdftex.def)             Requested size: 375.80959pt x 457.5377pt.
 
-LaTeX Warning: Reference `cluster_mhhi' on page 17 undefined on input line 776.
+LaTeX Warning: Reference `cluster_mhhi' on page 17 undefined on input line 765.
 
 
 
-LaTeX Warning: Reference `cluster_biv' on page 17 undefined on input line 785.
+LaTeX Warning: Reference `cluster_biv' on page 17 undefined on input line 774.
 
 
 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_error
-_model.png, id=230, 551.05875pt x 472.76625pt>
+_model.png, id=234, 551.05875pt x 472.76625pt>
 File: ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_
 error_model.png Graphic file (type png)
 
 <use ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_e
 rror_model.png>
 Package pdftex.def Info: ../spatial_regression/school_performance_2018/SPS_vs_a
-ll_minusED/spatial_error_model.png used on input line 795.
+ll_minusED/spatial_error_model.png used on input line 784.
 (pdftex.def)             Requested size: 375.81648pt x 322.4218pt.
 [17] [18 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/reg6
 _ols.png>] [19 <../spatial_regression/school_performance_2018/SPS_vs_all_minusE
 D/spatial_error_model.png>]
 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_lag_m
-odel.png, id=252, 691.58376pt x 460.72125pt>
+odel.png, id=256, 691.58376pt x 460.72125pt>
 File: ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_
 lag_model.png Graphic file (type png)
 
 <use ../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_l
 ag_model.png>
 Package pdftex.def Info: ../spatial_regression/school_performance_2018/SPS_vs_a
-ll_minusED/spatial_lag_model.png used on input line 833.
+ll_minusED/spatial_lag_model.png used on input line 822.
 (pdftex.def)             Requested size: 469.7642pt x 312.94887pt.
 [20 <../spatial_regression/school_performance_2018/SPS_vs_all_minusED/spatial_l
 ag_model.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 925.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 919.
 [21]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 925.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 919.
 (./Moroney_FinalReport.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 925.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 925.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 919.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 919.
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 925.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 919.
  ) 
 Here is how much of TeX's memory you used:
- 13293 strings out of 493014
- 197154 string characters out of 6133351
- 297667 words of memory out of 5000000
+ 13296 strings out of 493014
+ 197200 string characters out of 6133351
+ 297665 words of memory out of 5000000
  16415 multiletter control sequences out of 15000+600000
  74651 words of font info for 122 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 35i,8n,38p,742b,359s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 35i,8n,38p,742b,345s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/
 texlive/2016/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2016/t
 exmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/local/texlive/2016/texmf-dist/
@@ -1238,10 +1227,10 @@ lm/lmr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr7.pfb>
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/lm/lmr8.pfb></usr/local/
 texlive/2016/texmf-dist/fonts/type1/public/lm/lmr9.pfb></usr/local/texlive/2016
 /texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on Moroney_FinalReport.pdf (21 pages, 4784254 bytes).
+Output written on Moroney_FinalReport.pdf (21 pages, 4784422 bytes).
 PDF statistics:
- 431 PDF objects out of 1000 (max. 8388607)
- 349 compressed objects within 4 object streams
- 110 named destinations out of 1000 (max. 500000)
+ 438 PDF objects out of 1000 (max. 8388607)
+ 356 compressed objects within 4 object streams
+ 113 named destinations out of 1000 (max. 500000)
  16647 words of extra memory for PDF output out of 17280 (max. 10000000)
 

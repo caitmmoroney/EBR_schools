@@ -32,7 +32,7 @@ East Baton Rouge Parish is no stranger to this school district “splintering”
 
 ![East Baton Rouge Parish school districts and the area of the City of St. George as proposed in 2018.](../EBR_Parish_context.jpg){width=75% height=75%}
 
-The rest of the paper is organized as follows: in Section \ref{sec:methods} I cover the methodology used in this analysis, in Section \ref{sec:results} I report the results, and in Section \ref{sec:discuss} I discuss the findings.
+The rest of the paper is organized as follows: in the Methods section I cover the methodology used in this analysis, in Results section I report the results, and in the Discussion section I discuss the findings.
 
 # Methods
 \label{sec:methods}
@@ -72,11 +72,7 @@ I conduct two analyses, one taking the census block groups as the units for anal
 
 ## Census Block Groups
 
-For the census block groups, I focus on median household income and the percentage of the population that identifies solely as white. I construct a spatial weights matrix using Queen's case first-order such that each census block group's neighbors are its immediately adjacent census block groups.
-
-- Local Moran's I
-- Local Moran's I with EB rates
-- Bivariate Local Moran's I
+For the census block groups, I focus on median household income and the percentage of the population that identifies solely as white. I construct a spatial weights matrix using Queen's case first-order such that each census block group's neighbors are its immediately adjacent census block groups. I subsequently perform cluster analysis using Local Moran's. I conduct three variations: the first is a standard Local Moran's I which seeks to identify spatial autocorrelation within the study area. The second analysis is Local Moran's I with EB rates, which is an appropriate method when the variable of interest is a rate or proportion. The third analysis is Bivariate Local Moran's I, which identifies statistically significant spatial autocorrelation with respect to two variables. Further details are provided below in the Results section.
 
 \begin{figure}
 \centering
