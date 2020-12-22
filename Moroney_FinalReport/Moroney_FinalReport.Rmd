@@ -14,9 +14,24 @@ I am interested in examining the relationships between school performance, race,
 I propose to investigate the following research questions:
 
 * Is there evidence that suggests the clustering of racial groups in East Baton Rouge (EBR) Parish?
+
+I hypothesize that the white population tends to cluster in areas that fall under the splinter school districts or the City of St. George, whereas the denser urban part of the Parish will have a higher share of minorities.
+
 * Is there evidence of the clustering of income levels in EBR Parish?
+
+I hypothesize that areas covered by the splinter school districts and the City of St. George will tend to have higher income levels, on average, than areas in the EBR Parish School District.
+
 * Is there evidence of a spatial relationship between race and income?
-* Is there evidence to suggest that school performance is linked to the racial makeup of the student body, the percentage of economically disadvantaged students, and/or the percentage of students fully proficient in English?
+
+I expect that areas with a higher share of white residents will tend to have higher income levels, on average.
+
+* Is there evidence to suggest that school performance is linked to the racial makeup of the student body and/or the percentage of students fully proficient in English?
+
+I hypothesize that school performance has a positive relationship with the percentage of white students, ceteris paribus. I also expect that school performance has a positive relationship with the percentage of students fully proficient in English, ceteris paribus.
+
+* Is there evidence to suggest that the percentage of economically disadvantaged students is related to the percentage of white students and/or the share of English-proficient students?
+
+I expect that both of these explanatory variables are negatively related to the percentage of economically disadvantaged students.
 
 # Introduction
 
@@ -270,6 +285,8 @@ The results from the spatial lag model hypothesis tests (see Figure \ref{fig:sps
 # Discussion
 \label{sec:discuss}
 
+In this project I study the relationships between school performance and socioeconomic indicators. I first assess whether there is spatial clustering of racial groups or income levels, and whether there is a spatial relationship between these variables. The evidence supports my hypotheses that there would be statistically significant clustering for each of these analyses, and the locations of high-high and low-low clusters line up fairly well with my expectations.
+
 For each of the Local Moran's I analyses, we can see statistically significant evidence of spatial autocorrelation. There is significant clustering of median household income, such that the City of St. George region is comprised mainly of census block groups with higher than average median household income, whereas the denser urban area in the central western part of the Parish features clustering of census block groups with lower than average median household income. Refer back to Figure \ref{fig:cluster_mhhi}. Similarly, both the regular Local Moran's and Local Moran's with EB rates analyses of the percentage of the population that identifies only as white find significant clustering. See Figures \ref{fig:cluster_uni} and \ref{fig:cluster_eb}, respectively. From these maps, it is evident that census block groups with a higher than average white percentage of the population tend to cluster in the eastern and southern parts of the Parish. Census block groups with a lower than average white percentage of the population tend to group in the central western part of the Parish. Based on these findings, it is unsurprising that my Bivariate Local Moran's I results (see Figure \ref{fig:cluster_biv}) show that census block groups surrounded by census block groups with a higher than average white percentage of the population tend to have a higher than average median household income. Likewise, census block groups neighbored by census block groups with a lower than average white percentage of the population tend to have lower than average median household income.
 
 \begin{figure}
@@ -281,6 +298,8 @@ For each of the Local Moran's I analyses, we can see statistically significant e
 
 Taken together, the results of my census block analyses show that there is a statistically significant clustering of racial groups in East Baton Rouge Parish; there is a statistically significant clustering of income groups in the Parish; and that these two clustering trends are collocated, such that relatively richer census block groups tend to be relatively whiter and relatively poorer census block groups tend to have a larger share of minorities. While the relationship between race and income (and the spatial patterns of these variables) is well-documented and considered common knowledge, what I find interesting about these results is that the whiter, more affluent census block groups tend to overlap with what is currently Central School District (a fragmented district) and the City of St. George (soon to form a new school district). These findings lend evidence to the theory that splintering school districts tend to be whiter and wealthier than the original intact school district.
 
+My next set of analyses address my hypotheses that the percentage of economically disadvantaged students is related to the percentage of white students and/or the percentage of students who are fully proficient in English. The last variable was not statistically significant, so I reject my original hypothesis on the relationship between economically disadvantaged students and students fully proficient in English. However, the results do suggest that there is a negative relationship between the percentage of economically disadvantaged students and the percentage of white students, as I anticipated.
+
 From my regression models, I can draw conclusions about the relationships between school performance and socioeconomic variables. The best model for the regressions taking the percentage of economically disadvantaged students as the dependent variable, according to AIC and SBC values, is the spatial lag model. This model explains about 80.1% of the observed variance in the percentage of economically disadvantaged students, which is quite high. Based on this model, the coefficient for the percentage of white students is approximately -0.882, after controlling for school size and spatial autocorrelation. For each one percentage point increase in the percentage of white students, the percentage of economically disadvantaged students decreases by about 0.882 percentage points, ceteris paribus. This result suggests that the positive relationship between the white share of the population and income exists in schools as it does in the full population, which is perhaps not surprising.
 
 \begin{figure}
@@ -289,8 +308,8 @@ From my regression models, I can draw conclusions about the relationships betwee
 \label{fig:sps_lag}
 \end{figure}
 
-The second set of regressions focus on school performance as the dependent variable. Here, the best performing model was the spatial error model, with the lowest AIC and SBC values as well as the highest R-squared ($R^2 = 0.486$). Controlling for spatial dependence in the error term as well as school size, we see that a one percentage point increase in the percentage of white students results in a 59.9 point increase in the school performance score, on average. Considering that the average school performance score is 63.96 with a standard deviation of approximately 19.62, we can say that the share of white students may have a large effect on school performance. However, it is important to note that this model explains less than 50% of the observed variation in school performance scores. Overall, these findings suggest that whiter schools tend to perform better, on average, than schools with larger shares of minority students. Though this trend is also well-documented in news reporting, I find it noteworthy that the data and statistical tests do, in the case of East Baton Rouge Parish, provide evidence in support of this claim. I cannot say definitively based on my analysis whether the formation of a St. George school district will result in another well-performing splinter district and a simultaneous dip in the East Baton Rouge Parish School District average school performance. However, I believe these findings, which provide evidence of racial and income segregation as well as a significant linkage between race and school performance, are relevant to the current debate on the incorporation of the City of St. George and the potential formation of a new school district.
+Finally, I address my hypothesis that both the percentage of white students and the percentage of students fully proficient in English are positively related to school performance scores. Again, the percentage of students fully proficient in English was not statistically significant, so I reject my original hypothesis on the relationship between school performance and the percentage of students fully proficient in English. Also as above, I correctly predicted that the percentage of white students would have a positive impact (on average) on school performance.
 
-
+For the second set of regressions, the best performing model was the spatial error model, with the lowest AIC and SBC values as well as the highest R-squared ($R^2 = 0.486$). Controlling for spatial dependence in the error term as well as school size, we see that a one percentage point increase in the percentage of white students results in a 59.9 point increase in the school performance score, on average. Considering that the average school performance score is 63.96 with a standard deviation of approximately 19.62, we can say that the share of white students may have a large effect on school performance. However, it is important to note that this model explains less than 50% of the observed variation in school performance scores. Overall, these findings suggest that whiter schools tend to perform better, on average, than schools with larger shares of minority students. Though this trend is also well-documented in news reporting, I find it noteworthy that the data and statistical tests do, in the case of East Baton Rouge Parish, provide evidence in support of this claim. I cannot say definitively based on my analysis whether the formation of a St. George school district will result in another well-performing splinter district and a simultaneous dip in the East Baton Rouge Parish School District average school performance. However, I believe these findings, which provide evidence of racial and income segregation as well as a significant linkage between race and school performance, are relevant to the current debate on the incorporation of the City of St. George and the potential formation of a new school district.
 
 # Citations
